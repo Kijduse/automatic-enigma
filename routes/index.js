@@ -15,7 +15,7 @@ router.get('/services', function(req, res, next) {
 });
 
 router.get('/site', function(req, res, next) {
-  res.render('site', { title: 'Kevin J Park Limited :: This Site' });
+  res.render('site', { title: 'About this site' });
 });
 
 module.exports = router;
