@@ -1,8 +1,32 @@
+html {
+  background: rgb(74,0,154);
+  background: linear-gradient(0deg, rgba(74,0,154,1) 0%, rgba(158,45,253,1) 100%); 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#container {
+  height: 100vh;
+}
+
 body {
+  margin: 0px;
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', sans-serif;
+  color: #FFF;
 }
 
 a {
   color: #00B7FF;
+}
+
+footer {
+  font-size: smaller;
+  font-family: 'Raleway', sans-serif;
+  clear: both;
+  position: relative;
+  z-index: 10;
+  height: 3em;
+  /* margin-top: -3em */
 }
